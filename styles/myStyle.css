@@ -1,0 +1,122 @@
+﻿body {
+    direction: rtl;
+    color: #064F8D;
+    font-size: 18px;
+
+}
+
+nav,
+.ore {
+    font-family: OS Luizi Round_FFC;
+    font-size: x-large;
+}
+
+.nav-link,
+.ore,
+h5 {
+    color: #F76F14;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.nav-item {
+    margin: 15px;
+}
+
+h1 {
+    font-family: OS Luizi Round_FFC;
+    color: #5DC4F1;
+    font-size: 70px;
+}
+
+h2 {
+    font-family: OS Luizi Round_FFC;
+    font-size: 40px;
+}
+
+h5 {
+    font-family: OS Luizi Round_FFC;
+    font-size: 30px;
+}
+
+.card {
+    background-color: #E4F0F5;
+    height: 250px;
+}
+
+.btn .btn-info {
+    -color: #F76F14;
+}
+
+header,
+section {
+    margin-bottom: 200px;
+}
+
+header {
+    margin-top: 200px;
+}
+
+.dragBox, .dragBox input[type="file"] {
+    max-width: 100%;
+    height: 200px;
+    padding-top: 80px;
+    /*margin: 0 auto;*/
+    /*position: relative;*/
+    text-align: center;
+    color: #F76F14;
+    border: 2px dashed #5DC4F1;
+    display: inline-block;
+    transition: transform 0.3s;
+    font-size: 25px;
+    font-family: OS Luizi Round_FFC;
+    border-radius: 10px;
+    background-color: #FEF4ED;
+}
+
+.dragBox:hover {
+    border-style: solid;
+}
+
+.dragBox input[type="file"] {
+    position: relative;
+    max-width: 100%;
+    height: 200px;
+    opacity: 0;
+    bottom: 119px;
+    cursor: pointer;
+}
+
+.draging {
+    transform: scale(1.1);
+}
+
+#preview {
+    max-width: 250px;
+    font-size: 0.95em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
